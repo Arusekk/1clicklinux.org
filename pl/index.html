@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>1-Click Linux</title>
+<link rel="icon" href="../favicon.ico">
+<link rel="canonical" href="https://www.1clicklinux.org/">
+</head>
+<body>
+
+<header>
+<a href="#waitlist">Już wkrótce!</a>
+</header>
+
+<main>
+<section>
+<div>
+<h1><span>Bez ustawień BIOS. Bez pendrive'ów i maszyn wirtualnych.</span>
+Po prostu 1-Click Linux.</h1>
+<figure>
+<img src="1clinux.svg">
+</figure>
+</div>
+
+<p>Wypróbowanie lepszego systemu operacyjnego nie powinno wymagać doktoratu z ustawień ani dodatkowego sprzętu.
+<em>Twój komputer jest w zupełności wystarczający.</em>
+Pobierz jeden plik i zobacz. <strong>Działa także w trybie Secure Boot!</strong>
+
+<p>Nieważne, czy chcesz odejść od Windowsa, czy to Windows chce odejść od Ciebie,
+pora wypróbować tego całego Linuksa, o którym wszyscy mówią.
+<em>Cokolwiek Cię tu sprowadza, jesteśmy z Tobą.</em>
+
+<div>
+<ul>
+<li>Chcesz <em>nadal używać sprawdzonego sprzętu</em> ale megakorporacje zdecydowały inaczej?
+<li><em>Ceny</em> nowych komputerów/laptopów są absurdalne?
+<li>Dbasz o <em>prywatność</em>?
+</ul>
+
+<p>but
+
+<ul>
+<li><em>Nie masz pojęcia</em> jak zainstalować system?
+<li>Boisz się maszyn wirtualnych i <em>nie masz pendrive'a</em>?
+<li>Rufus, Ventoy i Balena Etcher wszystkie <em>za trudne</em>?
+</ul>
+</div>
+
+<div>
+<ul>
+<li>
+<q>Nie miałam pojęcia, że tak można!</q>
+-moja mama<sup><a href="#fn-1" id="ref-1">1</a></sup>
+<li>
+<q>Nie ma opcji, że to działa z Secure Boot-em.</q>
+-mój promotor
+<li>
+<q>Myślałem, że głównym celem 'Secure' Boot-a było zniszczyć konkurencję na rynku systemów. Nadal tak uważam, ale wygląda na to, że im się nie udało!</q>
+-ja
+</ul>
+</div>
+</section>
+
+<section>
+<a name="waitlist" id="waitlist"></a>
+<h2>Dołącz do oczekujących</h2>
+
+<form method="POST" action="https://prod.1clicklinux.org/signup">
+<label for="email">Adres e-mail (sprawdź dwa razy):</label>
+<input type="email" name="email" id="email" placeholder="jacek@twojafirma.pl" required>
+<textarea name="comment" placeholder="jakiś opcjonalny komentarz?"></textarea>
+<button type="submit">Chcę być na bieżąco</button>
+</form>
+</section>
+
+<section>
+<h2>Pytania i odpowiedzi</h2>
+<p>P: Ale super! Gdzie to mogę dostać?
+<p>O: Na razie to jest oprogramowanie w fazie testów, więc jeszcze go nie wypuszczam. Możesz zapisać się na <a href="#waitlist">newsletter</a>. Nigdy nie spamuję - wypisz się kiedy chcesz.
+
+<p>P: Chcę to mieć, jak już wyjdzie.
+<p>O: Wkrótce będzie można kupić kopię publicznej wersji beta. Muszę najpierw ustawić jakieś używalne płatności.<sup><a href="#fn-3" id="ref-3-1">3</a></sup>
+
+<p>P: Dlaczego mam za to płacić? To Linux nie jest za darmo?
+<p>O: Bo ciężko pracowałem, żeby zrobić ten instalator i zapłaciłem za tę stronę. Ciągle możesz sobie zainstalować Linuksa po swojemu.
+Zwłaszcza jeśli właśnie używasz Windowsa, który kosztował ~300 zł<sup><a href="#fn-2" id="ref-2">2</a></sup>,
+równie dobrze możesz mi trochę zapłacić.
+Ja też chcę jeść.
+
+<p>P: Jeśli muszę zapłacić, czy mogę coś dostać za porozgłaszanie, że jest coś takiego?
+<p>O: Będzie mi niezmiernie miło podzielić się kodami polecającymi, jak tylko mi się to uda dobrze zrobić.<sup><a href="#fn-3" id="ref-3-2">3</a></sup>
+
+<p>P: Jakie dystrybucje będą wspierane?
+<p>O: Na razie działa tylko jedna, Zorin Core. Jak tylko zarobię pierwszą złotówkę, zacznę zbierać pomysły na ulepszenia.
+</section>
+
+<section>
+<ol>
+<li><sup><a id="fn-1" href="#ref-1">^</a></sup>
+cześć Mamo
+<li><sup><a id="fn-2" href="#ref-2">^</a></sup>
+nie, ani jedna kopia Windowsa nigdy nie była w gratisie; chyba że chcesz mi o czymś powiedzieć...
+<li><sup><a id="fn-3" href="#ref-3-1">1</a>, <a href="#ref-3-2">2</a></sup>
+dlaczego z pieniędzmi jest tyle problemów?
+Wolałbym nie musieć chować swojego programu dla płacących.
+Wolałbym, żeby ludzie sami odpłacali projektom, które im pomagają,
+i publicznie zachęcali do takich darowizn (za darmo, bez przypominania)
+</ol>
+</section>
+
+<section>
+<a name="news" id="news"></a>
+<h2>Nowości</h2>
+<article id="2026-03-20-it-works">
+<h3>Działa! <a href="#2026-03-20-it-works">🔗</a></h3>
+<date>2026-03-20</date>
+
+<p>Obecny prototyp składa się z dwóch plików:
+samowystarczalnego pliku wykonywalnego i officjalnego obrazu dysku z wybranej dystrybucji (Zorin Core).
+Po kliknięciu na program prosi on o dostęp do dysku i zadaje kilka pytań, aby skonfigurować
+jednokrotny restart do Linuksa na żywo, z opcją trwałej instalacji.
+
+<p>Ostatnia rzecz do wymyślenia przed publiczną wersją beta to jakieś płatności przy pobieraniu.
+</article>
+</section>
+
+</main>
+
+<footer>
+© 2026 <a href="https://blog.arusekk.pl">Arusekk</a>. Wszelkie prawa zastrzeżone.
+<br>
+
+Zero aktywnego śledzenia.
+Nie sprzedajemy Twoich danych.
+</footer>
+
+</body>
+</html>
