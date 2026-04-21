@@ -13,7 +13,7 @@
 <body>
 
 <header>
-<a href="#waitlist">Już wkrótce!</a>
+<a href="#buy">Alfa już dostępna w sprzedaży!</a>
 </header>
 
 <main>
@@ -84,8 +84,28 @@ roscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-w
 </section>
 
 <section>
-<a name="waitlist" id="waitlist"></a>
-<h2>Dołącz do oczekujących</h2>
+<a name="buy" id="buy"></a>
+<h2>Kup alfę już teraz</h2>
+<p>Alfa jest przeznaczona tylko dla osób chcących przetestować program.
+Przeczytaj <a href="#no-refunds">politykę zwrotów</a>.
+Jeśli na pewno wiesz, co robisz, to śmiało.<br>
+<a href="https://buy.stripe.com/5kQdR89qg9hObrO2Mgbsc02">🛒 Kup alfę teraz (Stripe)</a>
+
+<p><a name="no-refunds" id="no-refunds"></a>
+Żadnych zwrotów: jak już zaczniesz pobierać program, to już za późno. Nie ma odwrotu.
+Więc przemyśl dwa razy zanim wybierzesz „kup”.
+Jeśli zakup poszedł przez pomyłkę i pobieranie jeszcze się nie zaczęło,
+napisz na <a href="mailto:support@1clicklinux.org">support@1clicklinux.org</a> ze swojego adresu podanego przy płatności
+(bardzo ważne: inaczej trafisz do spamu) i coś wymyślimy.
+<p>
+Chociaż nie oddajemy pieniędzy, możesz skontaktować się z zespołem wsparcia.
+Z każdym zakupem otrzymujesz możliwość jednego zgłoszenia, postaramy się pomóc ile się uda.
+Dość proste.
+</section>
+
+<section>
+<a name="newsletter" id="newsletter"></a>
+<h2>Zapisz się na newsletter</h2>
 
 <form method="POST" action="https://prod.1clicklinux.org/signup">
 <label for="email">Adres e-mail (sprawdź dwa razy):</label>
@@ -96,12 +116,22 @@ roscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-w
 </section>
 
 <section>
+<a name="q-a" id="q-a"></a>
 <h2>Pytania i odpowiedzi</h2>
 <p>P: Ale super! Gdzie to mogę dostać?
-<p>O: Na razie to jest oprogramowanie w fazie testów, więc jeszcze go nie wypuszczam. Możesz zapisać się na <a href="#waitlist">newsletter</a>. Nigdy nie spamuję - wypisz się kiedy chcesz.
+<p>O: Na razie to jest oprogramowanie w fazie testów, więc najpewniej jeszcze lepiej go nie kupować.
+Nie zostało dobrze przetestowane, więc może zawieszać, destabilizować, a nawet trwale uszkodzić Twój sprzęt.
+I niestety to nie są żarty.
+Ten rodzaj oprogramowania ciągle doprowadza do POWAŻNYCH PROBLEMÓW,
+włączając w to zniszczenie komputera.
+<br>
+Co oczywiście nie oznacza, że nigdy nie działa. Nam działa.
 
-<p>P: Chcę to mieć, jak już wyjdzie.
-<p>O: Wkrótce będzie można kupić kopię publicznej wersji beta. Muszę najpierw ustawić jakieś używalne płatności.<sup><a href="#fn-3" id="ref-3-1">3</a></sup>
+<p>P: I tak chcę kupić.
+<p>O: Ostrzegaliśmy! <a href="#buy">Przejdź tutaj</a>.
+
+<p>P: Skąd się dowiem, jak wyjdzie oficjalne wydanie?
+<p>O: Zapisz się na <a href="#newsletter">newsletter</a>. Nigdy nie spamuję — wypisz się kiedy chcesz.
 
 <p>P: Dlaczego mam za to płacić? To Linux nie jest za darmo?
 <p>O: Bo ciężko pracowałem, żeby zrobić ten instalator i zapłaciłem za tę stronę. Ciągle możesz sobie zainstalować Linuksa po swojemu.
@@ -110,10 +140,20 @@ równie dobrze możesz mi trochę zapłacić.
 Ja też chcę jeść.
 
 <p>P: Jeśli muszę zapłacić, czy mogę coś dostać za porozgłaszanie, że jest coś takiego?
-<p>O: Będzie mi niezmiernie miło podzielić się kodami polecającymi, jak tylko mi się to uda dobrze zrobić.<sup><a href="#fn-3" id="ref-3-2">3</a></sup>
+<p>O: TAK! Po zakupie dostaniesz swój kod polecający — ludzie dostaną zniżkę a Ty zarobisz.<sup><a href="#fn-3" id="ref-3">3</a></sup>
+
+<p>P: Czy mogę (ja albo ktoś) zweryfikować kod źródłowy?
+<p>O: Tak, chociaż komercyjne, jest to wolne oprogramowanie,
+z programem dostajesz źródła i możesz z nim eksperymentować ile chcesz,
+dopóki jest to zgodne z <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">licencją</a>.
+
+<p>P: Jak ten program chroni moją prywatność?
+<p>O: Nie wykonuje ani jednego połączenia sieciowego, i nigdy nie zbiera nawet najmniejszych danych.
+Można wszystko odinstalować uruchamiając pobrany program i wybierając odpowiednią opcję.
 
 <p>P: Jakie dystrybucje będą wspierane?
-<p>O: Na razie działa tylko jedna, Zorin Core. Jak tylko zarobię pierwszą złotówkę, zacznę zbierać pomysły na ulepszenia.
+<p>O: Na razie działa tylko jedna, Zorin Core, i tylko jedna konkretna wersja.
+Jak tylko zarobię pierwszą złotówkę, zacznę zbierać pomysły na ulepszenia.
 </section>
 
 <section>
@@ -122,7 +162,7 @@ Ja też chcę jeść.
 cześć Mamo
 <li><sup><a id="fn-2" href="#ref-2">^</a></sup>
 nie, ani jedna kopia Windowsa nigdy nie była w gratisie; chyba że chcesz mi o czymś powiedzieć...
-<li><sup><a id="fn-3" href="#ref-3-1">1</a>, <a href="#ref-3-2">2</a></sup>
+<li><sup><a id="fn-3" href="#ref-3">^</a></sup>
 dlaczego z pieniędzmi jest tyle problemów?
 Wolałbym nie musieć chować swojego programu dla płacących.
 Wolałbym, żeby ludzie sami odpłacali projektom, które im pomagają,
@@ -133,12 +173,19 @@ i publicznie zachęcali do takich darowizn (za darmo, bez przypominania)
 <section>
 <a name="news" id="news"></a>
 <h2>Nowości</h2>
+<article id="2026-04-21-alpha-out">
+<h3>Alfa wyszła <a href="#2026-04-21-alpha-out">🔗</a></h3>
+<date>2026-04-21</date>
+
+<p>Alfa jest już dostępna! Kup ją <a href="#buy">tutaj</a>.
+</article>
+
 <article id="2026-04-20-showcase-recording">
 <h3>Nagranie demonstracyjne <a href="#2026-04-20-showcase-recording">🔗</a></h3>
 <date>2026-04-20</date>
 
 <p>
-Nagrałem działanie programu, żebyś wiedział(a), co to jest, zanim kupisz!<br>
+Nagrałem działanie programu, żeby można było zobaczyć, co jest grane, jeszcze zanim się kupi!<br>
 <a href="https://youtu.be/A5rL5qumn8M">Działanie programu pod Windowsem 10, tryb legacy BIOS, system po angielsku (YouTube)</a><br>
 <a href="https://youtu.be/0BjQY4gDTzU">Działanie programu pod Windowsem 11, tryb EFI + Secure Boot, system po polsku (YouTube)</a>
 </article>
