@@ -127,6 +127,14 @@ input, textarea, button, fieldset {
 	padding: 0.5em;
 	border-radius: 0.25rem;
 }
+::placeholder {
+	color: #777;
+}
+button:first-of-type {
+	background: var(--fg);
+	color: var(--bg);
+	padding: 1em;
+}
 input[id^="star"] {
 	color: gold;
 	opacity: 0;
@@ -142,14 +150,6 @@ input[id^="star"] {
 		color: #777;
 	}
 }
-button:first-of-type {
-	background: var(--fg);
-	color: var(--bg);
-	padding: 1em;
-}
-::placeholder {
-	color: #777;
-}
 article {
 	border: 1px solid #777;
 	border-radius: 1rem;
@@ -162,6 +162,9 @@ article {
 	& date {
 		display: block;
 		color: #777;
+	}
+	& a[href^="#20"] {
+		font-size: .7em;
 	}
 }
 header>a {
@@ -180,9 +183,6 @@ header>a {
 		top: .5em;
 		display: block;
 		content: " ";
-	}
-	a[href^="#20"] {
-		font-size: .7em;
 	}
 }
 @media(prefers-color-scheme: dark) {
