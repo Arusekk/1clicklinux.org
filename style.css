@@ -127,6 +127,21 @@ input, textarea, button, fieldset {
 	padding: 0.5em;
 	border-radius: 0.25rem;
 }
+input[id^="star"] {
+	color: gold;
+	opacity: 0;
+	&+label {
+		color: gold;
+		&::before {
+			content: "\2605";
+			font-size: 2rem;
+		}
+		font-size: 0;
+	}
+	&:checked + * ~ * {
+		color: #777;
+	}
+}
 button:first-of-type {
 	background: var(--fg);
 	color: var(--bg);
