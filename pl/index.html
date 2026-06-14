@@ -16,7 +16,7 @@
 <body>
 
 <header>
-<a href="#buy">Alfa już dostępna do pobrania!</a>
+<a href="#buy">Alfa 0.2 już dostępna do pobrania!</a>
 </header>
 
 <main>
@@ -24,9 +24,10 @@
 <div>
 <h1><span>Bez ustawień BIOS. Bez pendrive'ów i maszyn wirtualnych.</span>
 Po prostu 1-Click Linux.</h1>
-<figure>
-<img src="../1clinux.svg" alt="Obrazek: pingwin trzymający kursor myszy">
-</figure>
+<picture title="Pingwin trzymający kursor myszy">
+  <source srcset="../img/1clinux.svg" type="image/svg+xml" />
+  <img src="../img/1clinux.gif" alt="Pingwin trzymający kursor myszy">
+</picture>
 </div>
 
 <p>Wypróbowanie lepszego systemu operacyjnego nie powinno wymagać doktoratu z ustawień ani dodatkowego sprzętu.
@@ -70,19 +71,17 @@ pora wypróbować tego całego Linuksa, o którym wszyscy mówią.
 
 <section class="vid">
 <details>
-  <summary aria-label="Odtwórz wideo: 1-Click Linux Win11 PL">
-    <img src="../11pl.webp" title="1-Click Linux Win11 PL" alt="Demonstracja 1-Click Linux na Windows 11 z językiem polskim" loading="lazy">
+  <summary title="Odtwórz wideo: 1-Click Linux Win11 PL">
+    <img src="../img/11pl.webp" title="1-Click Linux Win11 PL" alt="Demonstracja 1-Click Linux na Windows 11 z językiem polskim" loading="lazy">
   </summary>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/0BjQY4gDTzU?autoplay=1" title="1-Click Linux Win11 PL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gy
-roscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0BjQY4gDTzU?autoplay=1" title="1-Click Linux Win11 PL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </details>
 
 <details>
-  <summary aria-label="Odtwórz wideo: 1-Click Linux Win10 EN">
-    <img src="../10en.webp" title="1-Click Linux Win10 EN" alt="Demonstracja 1-Click Linux na Windows 10 z językiem angielskim" loading="lazy">
+  <summary title="Odtwórz wideo: 1-Click Linux Win10 EN">
+    <img src="../img/10en.webp" title="1-Click Linux Win10 EN" alt="Demonstracja 1-Click Linux na Windows 10 z językiem angielskim" loading="lazy">
   </summary>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/A5rL5qumn8M?autoplay=1" title="1-Click Linux Win10 EN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gy
-roscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/A5rL5qumn8M?autoplay=1" title="1-Click Linux Win10 EN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" autoplay referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </details>
 </section>
 
@@ -185,6 +184,17 @@ i publicznie zachęcali do takich darowizn (za darmo, bez przypominania)
 <section>
 <a name="news" id="news"></a>
 <h2>Nowości</h2>
+<article id="2026-06-09-video-tutorial">
+<h3>Poradnik wideo <a href="#2026-06-09-video-tutorial">🔗</a></h3>
+<date>2026-06-09</date>
+
+<p>Zastanawiasz się, jak zainstalować Linuksa na swoim komputerze z Windowsem bez pendrive'ów? Nagrałem poradnik,
+<a href="https://youtu.be/UFAoI9u6lB0">jak najprościej zainstalować Linuksa bez USB/CD/DVD za pomocą 1-Click Linux</a>
+(<a href="https://youtu.be/L49P9DwIpH0">wersja angielska</a>).
+
+To nagranie pokazuje nowe wydanie alfa 0.2.
+</article>
+
 <article id="2026-05-30-live-at-piwo">
 <h3>Na żywo na P.I.W.O. <a href="#2026-05-30-live-at-piwo">🔗</a></h3>
 <date>2026-05-30</date>
@@ -205,7 +215,7 @@ Powinno wkrótce dotrzeć też na Peertube.
 <h3>Alfa wyszła <a href="#2026-04-21-alpha-out">🔗</a></h3>
 <date>2026-04-21</date>
 
-<p>Alfa jest już dostępna! <a href="#buy">Kup ją tutaj</a>.
+<p>Alfa jest już dostępna! <a href="#buy">Zdobądź ją tutaj</a>. Zdecydowałem się na razie na Stripe, bo dzięki temu nie muszę sam zbierać żadnych danych osobowych.
 </article>
 
 <article id="2026-04-20-showcase-recording">
@@ -236,11 +246,12 @@ jednokrotny restart do Linuksa na żywo, z opcją trwałej instalacji.
 <footer>
 Obserwuj autora:
 <nav aria-label="Media społecznościowe">
-  <a href="https://x.com/arusekk_pl" target="_blank">Twitter / X</a>
-  <a href="https://linkedin.com/in/arusekk" target="_blank">LinkedIn</a>
-  <a href="https://infosec.exchange/@Arusekk" target="_blank" rel="me">Mastodon</a>
-  <a href="https://github.com/Arusekk" target="_blank">GitHub</a>
-  <a href="https://youtube.com/@arusekk" target="_blank">YouTube</a>
+  <a href="https://x.com/arusekk_pl" target="_blank" rel="me"><img src="../img/social.svg" alt="Twitter / X" title="Twitter / X"></a>
+  <a href="https://linkedin.com/in/arusekk" target="_blank" rel="me"><img src="../img/social.svg" alt="LinkedIn" title="LinkedIn"></a>
+  <a href="https://infosec.exchange/@Arusekk" target="_blank" rel="me"><img src="../img/social.svg" alt="Mastodon" title="Mastodon"></a>
+  <a href="https://github.com/Arusekk" target="_blank" rel="me"><img src="../img/social.svg" alt="GitHub" title="GitHub"></a>
+  <a href="https://youtube.com/@arusekk" target="_blank" rel="me"><img src="../img/social.svg" alt="YouTube" title="YouTube"></a>
+  <a href="https://reddit.com/user/arusekk_pl" target="_blank" rel="me"><img src="../img/social.svg" alt="Reddit" title="Reddit"></a>
 </nav>
 <br>
 

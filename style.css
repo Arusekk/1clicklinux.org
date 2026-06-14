@@ -4,7 +4,7 @@
 	--bg: white;
 	--fg: black;
 	background: var(--bg);
-	color: #777;
+	color: #666;
 }
 body {
 	display: flex;
@@ -18,11 +18,9 @@ h1, h2, h3, em, strong, code {
 }
 a {
 	color: #66a;
-	text-decoration: none;
 }
 a:hover {
-	color: var(--fg);
-	text-decoration: underline;
+	text-decoration: none;
 }
 h1 span {
 	color: #777;
@@ -33,11 +31,14 @@ div {
 	gap: 1rem;
 	justify-content: space-evenly;
 	place-items: center;
-	& ul {
-		border: 1px solid #777;
-		border-radius: 1rem;
-		padding: 1rem 3rem;
-	}
+}
+div ul {
+	border: 1px solid #777;
+	border-radius: 1rem;
+	padding: 1rem 3rem;
+}
+div p {
+	margin: 1em;
 }
 li {
 	max-width: 25rem;
@@ -49,7 +50,6 @@ ul:nth-of-type(2) li::marker {
 	color: rgba(255,0,0,.5);
 }
 p {
-	color: #777;
 	text-align: justify;
 }
 
@@ -65,29 +65,32 @@ section.vid {
 	justify-content: space-evenly;
 	place-items: center;
 	padding: 1rem 0;
-	& img {
+	max-width: 100vw;
+}
+	section.vid img {
 		max-width: 100%;
 		max-height: 315px;
 	}
-	& details {
+	section.vid details {
 		max-width: 560px;
 		background: black;
-		iframe {
+	}
+	section.vid details iframe {
 			max-width: 100vw;
 		}
-	}
-	& details[open] summary {
+	section.vid details[open] summary {
 		display: none;
 	}
-	& summary {
+	section.vid summary {
 		max-width: 560px;
 		height: 315px;
 		display: grid;
 		place-items: center;
-		&::before, & * {
+	}
+	section.vid summary::before, section.vid summary * {
 			grid-area: 1/1;
 		}
-		&::before {
+	section.vid summary::before {
 			content: "▶";
 			color: white;
 			width: 2em;
@@ -100,8 +103,6 @@ section.vid {
 			z-index: 20;
 			display: block;
 		}
-	}
-}
 section>p {
 	font-size: 1.2em;
 	max-width: 30rem;
@@ -127,9 +128,6 @@ input, textarea, button, fieldset, a[href^="https://buy."] {
 	padding: 0.5em;
 	border-radius: 0.25rem;
 }
-::placeholder {
-	color: #777;
-}
 button:first-of-type, a[href^="https://buy."] {
 	display: inline-block;
 	background: var(--fg);
@@ -139,42 +137,43 @@ button:first-of-type, a[href^="https://buy."] {
 input[id^="star"] {
 	color: gold;
 	opacity: 0;
-	&+label {
+}
+	input[id^="star"]+label {
 		color: gold;
-		&::before {
+		font-size: 0;
+	}
+	input[id^="star"]+label::before {
 			content: "\2605";
 			font-size: 2rem;
 		}
-		font-size: 0;
-	}
-	&:checked + * ~ * {
+	input[id^="start"]:checked + * ~ * {
 		color: #777;
 	}
-}
 article {
 	border: 1px solid #777;
 	border-radius: 1rem;
 	margin: 1em 0;
 	padding: 0 1em;
 	max-width: 50rem;
-	& h3 {
+}
+	article h3 {
 		margin-bottom: 0;
 	}
-	& date {
+	article date {
 		display: block;
 		color: #777;
 	}
-	& a[href^="#20"] {
+	article a[href^="#20"] {
 		font-size: .7em;
 	}
-}
 header>a {
 	border-radius: 1rem;
 	background: rgba(127,127,127,.3);
 	padding: 0.1em 1em 0.1em 2em;
 	position: relative;
 	border: 1px solid #777;
-	&::before {
+}
+	header>a::before {
 		border-radius: 50%;
 		width: .4em;
 		height: .4em;
@@ -185,11 +184,34 @@ header>a {
 		display: block;
 		content: " ";
 	}
+img[src$="social.svg"] {
+	max-height: 2em;
+	min-width: 2em;
+	object-fit: cover;
 }
+	img[alt^="Twitter"] {
+		object-position: 0 0;
+	}
+	img[alt^="LinkedIn"] {
+		object-position: 0 20%;
+	}
+	img[alt^="Mastodon"] {
+		object-position: 0 40%;
+	}
+	img[alt^="GitHub"] {
+		object-position: 0 60%;
+	}
+	img[alt^="YouTube"] {
+		object-position: 0 80%;
+	}
+	img[alt^="Reddit"] {
+		object-position: 0 100%;
+	}
 @media(prefers-color-scheme: dark) {
 	:root {
 		--bg: black;
 		--fg: white;
+		color: #ccc;
 	}
 }
 @media(max-width: 50rem) {
@@ -201,4 +223,14 @@ header>a {
 	section.vid {
 		flex-direction: column;
 	}
+}
+/* compat */
+form>* {
+	display: block;
+	width: 100%;
+}
+sup {
+	display: inline-block;
+	position: relative;
+	top: 0;
 }
