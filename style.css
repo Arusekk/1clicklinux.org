@@ -53,10 +53,12 @@ p {
 	text-align: justify;
 }
 
+hr {
+	width: 100%;
+	opacity: .3;
+}
 footer, section:not(:first-of-type) {
-	border-top: 0.5px solid rgba(127,127,127,.3);
 	padding: 1rem;
-	margin: 1rem 0;
 	width: 100%;
 }
 section.vid {
@@ -119,7 +121,7 @@ div p {
 form {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+	gap: .5rem;
 }
 input, textarea, button, fieldset, a[href^="https://buy."] {
 	border: 1px solid #777;
@@ -128,7 +130,7 @@ input, textarea, button, fieldset, a[href^="https://buy."] {
 	padding: 0.5em;
 	border-radius: 0.25rem;
 }
-button:first-of-type, a[href^="https://buy."] {
+button:first-of-type, input[type="submit"], a[href^="https://buy."] {
 	display: inline-block;
 	background: var(--fg);
 	color: var(--bg);
