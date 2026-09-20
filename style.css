@@ -168,6 +168,11 @@ article {
 	article a[href^="#20"] {
 		font-size: .7em;
 	}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 header>a {
 	border-radius: 1rem;
 	background: rgba(127,127,127,.3);
