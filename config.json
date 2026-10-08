@@ -1,0 +1,11 @@
+{
+  "notFound": "404.html",
+  "fileConfigs": [
+    {"glob": "*.webp", "options": {"cacheControl": "max-age=3600"}},
+    {"glob": "*.gif",  "options": {"cacheControl": "max-age=3600"}},
+    {"glob": "*.ico",  "options": {"cacheControl": "max-age=3600"}},
+    {"glob": "*.css",  "options": {"cacheControl": "max-age=180"}},
+    {"glob": "*.html", "options": {"cacheControl": "max-age=30"}}
+  ]
+}
+

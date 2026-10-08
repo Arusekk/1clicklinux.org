@@ -1,10 +1,10 @@
 * { box-sizing: border-box; }
 :root {
 	font-family: sans-serif;
-	--bg: white;
-	--fg: black;
+	--bg: #ddd;
+	--fg: #111;
 	background: var(--bg);
-	color: #666;
+	color: #555;
 }
 body {
 	display: flex;
@@ -16,21 +16,24 @@ h1, h2, h3, em, strong, code {
 	color: var(--fg);
 	font-style: normal;
 }
+picture:first-of-type {
+	float: right;
+	margin: 0 2rem;
+}
 a {
 	color: #66a;
 }
 a:hover {
 	text-decoration: none;
 }
-h1 span {
-	color: #777;
-	display: block;
-}
 div {
 	display: flex;
 	gap: 1rem;
 	justify-content: space-evenly;
 	place-items: center;
+}
+div div {
+	display: block;
 }
 div ul {
 	border: 1px solid #777;
@@ -41,13 +44,16 @@ div p {
 	margin: 1em;
 }
 li {
-	max-width: 25rem;
+	max-width: 50rem;
+	margin-left: -1rem;
+	margin-right: 1rem;
+	text-align: justify;
 }
 ul:first-of-type li::marker {
-	color: rgba(0,255,0,.5);
+	color: #c90;
 }
 ul:nth-of-type(2) li::marker {
-	color: rgba(255,0,0,.5);
+	color: #c90;
 }
 p {
 	text-align: justify;
@@ -56,6 +62,7 @@ p {
 hr {
 	width: 100%;
 	opacity: .3;
+	clear: both;
 }
 footer, section:not(:first-of-type) {
 	padding: 1rem;
@@ -173,11 +180,16 @@ header {
 	flex-direction: column;
 	align-items: center;
 }
+header>:first-child {
+	margin-top: 4rem;
+}
 header>a {
 	border-radius: 1rem;
+	backdrop-filter: blur(2em);
 	background: rgba(127,127,127,.3);
-	padding: 0.1em 1em 0.1em 2em;
-	position: relative;
+	padding: 0.5em 1em 0.5em 2em;
+	position: sticky;
+	bottom: calc(100vh - 4rem);
 	border: 1px solid #777;
 }
 	header>a::before {
@@ -187,7 +199,7 @@ header>a {
 		background: lime;
 		position: absolute;
 		left: 1em;
-		top: .5em;
+		top: 1em;
 		display: block;
 		content: " ";
 	}
@@ -216,9 +228,16 @@ img[src$="social.svg"] {
 	}
 @media(prefers-color-scheme: dark) {
 	:root {
-		--bg: black;
-		--fg: white;
+		--bg: #111;
+		--fg: #eee;
 		color: #ccc;
+	}
+}
+@media(max-width: 35rem) {
+	picture:first-of-type {
+		float: none;
+		display: block;
+		text-align: center;
 	}
 }
 @media(max-width: 50rem) {
