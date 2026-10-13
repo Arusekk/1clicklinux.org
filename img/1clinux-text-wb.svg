@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 1clinux-text.svg - 1-click Linux icon
+ - Copyright (C) 2026  Arusekk. All rights reserved.
+ -->
+
+<svg
+   height="192"
+   width="480"
+   version="1.1"
+   sodipodi:docname="1clinux-text-wb.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   inkscape:export-filename="1clinux-512.png"
+   inkscape:export-xdpi="256"
+   inkscape:export-ydpi="256"
+   id="svg10"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     showgrid="true"
+     inkscape:zoom="1.364248"
+     inkscape:cx="116.54772"
+     inkscape:cy="116.91423"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="1671"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10">
+    <inkscape:grid
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.75"
+       spacingy="0.75"
+       empcolor="#09f"
+       empopacity="0.4"
+       color="#09f"
+       opacity="0.2"
+       empspacing="16"
+       enabled="true"
+       visible="true"
+       id="grid1" />
+  </sodipodi:namedview>
+  <g
+     style="stroke:#999999;stroke-width:3"
+     id="g10"
+     transform="translate(32)">
+    <rect
+       style="stroke:none;stroke-width:3;fill:#000000;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect1"
+       width="480"
+       height="192"
+       x="-32"
+       y="0" />
+    <path
+       d="m 4,180 c 0,0 -39,-163 60,-163 99,0 60,163 60,163"
+       style="fill:#000000;stroke:#cccccc;fill-opacity:1;stroke-opacity:1"
+       sodipodi:nodetypes="czc"
+       id="path1" />
+    <path
+       d="m 28,180 c 0,0 -10.5,-15 -10.5,-48 0,-33 9.5,-61.5 46.5,-61.5 37,0 46.5,31.5 46.5,61.5 0,30 -10.5,48 -10.5,48"
+       style="fill:#cccccc;stroke:#cccccc;fill-opacity:1;stroke-opacity:1"
+       sodipodi:nodetypes="czzzc"
+       id="path2" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;stroke-opacity:1;fill-opacity:1"
+       d="m 94,0 c 0,15 1.5,25.5 6,25.5 h 32.25 L 106.75,51 c 0,0 -4.5,-22 -9.75,-25.5 -4.5,-3 -18,-3 -18,-3 z"
+       sodipodi:nodetypes="czccscc"
+       id="path3" />
+    <path
+       style="fill:#cccccc;stroke:#cccccc;fill-opacity:1;stroke-opacity:1"
+       d="M -30.5,130.5 V 99 l 42,31.5 H -2.75 l 4.875,24 h -16.5 L -20,130.5 Z"
+       sodipodi:nodetypes="cccccccc"
+       id="path4" />
+    <path
+       style="fill:#000000;stroke:#cccccc;fill-opacity:1;stroke-opacity:1"
+       d="m 2.5,85.5 c -24,19.5 -30,51.75 -30,56.25 0,6 30,-30.75 30,-30.75"
+       sodipodi:nodetypes="csc"
+       id="path5" />
+    <path
+       style="fill:#000000;stroke:#cccccc;fill-opacity:1;stroke-opacity:1"
+       d="m 125.5,85.5 c 24,18 30,50.25 30,56.25 0,6 -30,-30.75 -30,-30.75"
+       sodipodi:nodetypes="csc"
+       id="path6" />
+    <path
+       style="fill:#cccccc;stroke-width:0;fill-opacity:1"
+       d="M 64,36 C 52,36 40,37.5 40,66 h 12 c 0,-16.5 4.5,-18 9,-18 2.25,0 3,3 3,6 0,5 0,18 -9,18 h 21 c 0,-12 6.75,-12 9,-12 3,0 3,4 3,6 0,8 -2,8 -4,8 l 14,2 c 2,0 2,-5 2,-10 0,-16.5 -7.5,-18 -13.5,-18 0,0 -9.75,0 -10.5,1.5 C 76,42 70,36 64,36 Z"
+       sodipodi:nodetypes="sccssccssccsscs"
+       id="path7" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 76,186 c 9,0 16.5,-16.5 24,-16.5 7.5,0 22.5,16.5 30,16.5"
+       sodipodi:nodetypes="czc"
+       id="path8" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m -2,186 c 9,0 22.5,-16.5 30,-16.5 7.5,0 16.5,16.5 24,16.5"
+       sodipodi:nodetypes="czc"
+       id="path9" />
+    <path
+       style="fill:#cccccc;stroke:#000000;stroke-opacity:1;fill-opacity:1"
+       d="m 28,61.5 c 9,0 26.25,24 36,24 9.75,0 36,-9 48,-9"
+       sodipodi:nodetypes="czc"
+       id="path10" />
+    <path
+       style="fill:#cccccc;fill-opacity:1;stroke:none"
+       d="m 172,96 c 21.25,-8.5 12,-36 12,-48 -2,4.5 -12,24 -12,12 C 172,36 184,24 196,24 c 17,0 -12,60 12,72 m 60,-60 c 0,0 -36,-36 -36,24 0,60 36,24 36,24 m 0,-12 c 0,0 -24,24 -24,-12 0,-36 24,-12 24,-12 m 24,48 C 280,84 280,24 292,24 c 12,0 0,48 12,60 m 18,12 c 0,0 -6,-24 6,-24 12,0 6,24 6,24 M 213.25,60 c 12,0 12,12 0,12 M 388,60 C 388,60 352,48 352,78.75 c 0,29.25 36,17.25 36,17.25 m 0,-12 C 388,84 364,96 364,78 c 0,-18 24,-6 24,-6 M 400,96 c 0,0 0,-72 12,-72 6,0 12,24 0,48 C 416.5,60 436,48 436,60 c 0,3.5 -15.75,12 -15.75,18.75 0,5.25 15.75,10 15.75,17.25 0,5.25 -24,0 -24,-12 V 96 M 328,60 c -12,0 -12,-12 0,-12 12,0 12,12 0,12 M 220,180 c -36,0 -36,-12 -36,-24 0,-24 17.5,-48 24,-48 12,-0 -36,60 12,60 m 18,12 c 0,0 -6,-24 6,-24 12,0 6,24 6,24 m -6,-36 c -12,0 -12,-12 0,-12 12,0 12,12 0,12 m 60,36 c 0,0 12,-36 -17.25,-36 -30.75,0 -18.75,36 -18.75,36 m 12,0 c 0,0 -12,-24 6.75,-24 17.25,0 5.25,24 5.25,24 m 65.25,-36 c 0,0 12,36 -17.25,36 -30.75,0 -18.75,-36 -18.75,-36 m 12,0 c 0,0 -12,24 6.75,24 17.25,0 5.25,-24 5.25,-24 m 30.75,36 c 0,-12 12,-12.5 12,-18 0,-6.5 -12,-12.75 -12,-18 0,-12 24,0 24,12 0,-11.25 24,-24 24,-12 0,4.5 -12,12 -12,18 0,6.75 12,10.75 12,18 0,5.25 -24,0 -24,-12 0,12 -24,18 -24,12 z"
+       id="path18"
+       sodipodi:nodetypes="cccsccsccsccsccsccccsccsccscssscccsccssccsccsccsccsccsccscssscssscs" />
+  </g>
+</svg>
